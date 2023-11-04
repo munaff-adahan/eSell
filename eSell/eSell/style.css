@@ -1,0 +1,278 @@
+* {
+    font-family: "Quicksand";
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Honey Script";
+    src: url("fonts/HoneyScript-Light.ttf");
+}
+
+.logo {
+    height: 100px;
+    background-image: url("1249991_network_online_shopify_shopping_ecommerce_icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title1 {
+    font-family: "Honey Script";
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.background {
+    background-image: url("ecommerce.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title2 {
+    font-size: 20px;
+}
+
+.main-background {
+    background-image: url("resources/background-body.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.label1 {
+    font-size: 16px;
+}
+
+.label2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.carticon {
+    height: 32px;
+    background-image: url("cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hrbreak1 {
+    border-style: solid;
+    border-color: silver;
+    border-width: 3px;
+}
+
+.logoimg {
+    height: 80px;
+    background-image: url("1249991_network_online_shopify_shopping_ecommerce_icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.searchbtn {
+    height: 50px;
+}
+
+.link1 {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link2 {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.link3 {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.link3:hover {
+    text-decoration: underline;
+}
+
+.postercaption {
+    margin-bottom: 100px;
+}
+
+.postertitle {
+    font-size: 55px;
+    color: gray;
+}
+
+.postertxt {
+    font-size: 30px;
+    color: gray;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.lbl1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pm1 {
+    height: 75px;
+    background-image: url("paypal_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm2 {
+    height: 75px;
+    background-image: url("visa_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm3 {
+    height: 75px;
+    background-image: url("mastercard_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm4 {
+    height: 75px;
+    background-image: url("american_express_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productimg {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.sell {
+    cursor: pointer;
+}
+
+.sell:hover {
+    cursor: pointer;
+}
+
+.searchbtn1 {
+    width: 100%;
+}
+
+.singleproduct {
+    padding-top: 65px;
+    padding-bottom: 145px;
+    background-color: #e5e5e5;
+    padding: 20px;
+}
+
+.product_qty {
+    width: 105px;
+    height: 50px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    margin-right: 22px;
+    margin-bottom: 11px;
+}
+
+.emptyview {
+    height: 400px;
+    background-image: url("watchlistEmptyView.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.invoice_header_img {
+    height: 80px;
+    background-image: url("1249991_network_online_shopify_shopping_ecommerce_icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.frontlink {
+    pointer-events: auto! important;
+    cursor: not-allowed! important;
+}
+
+.logoadvanced {
+    width: 100px;
+    height: 100px;
+    background-image: url("resources/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cartemptyview {
+    height: 400px;
+    background-image: url("emptycart.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.product_qty {
+    width: 105px;
+    height: 50px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    margin-right: 22px;
+    margin-bottom: 11px;
+}
+
+.qty-buttons {
+    height: 100%;
+    width: 30px;
+    border: solid 1px #e5e5e5;
+    top: 0;
+    right: 0;
+}
+
+.addnewimg {
+    background-image: url("addnew.svg");
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
